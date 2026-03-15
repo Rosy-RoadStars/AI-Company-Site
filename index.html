@@ -3,10 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COV LLC</title>
+    <title>AI-Powered Concierge Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 120px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #ffd700;
+            color: #333;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-size: 1.1em;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        .features {
+            margin-bottom: 80px;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #667eea;
+        }
+        
+        .feature-item {
+            background: #f8f9fa;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .feature-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.1);
+        }
+        
+        .feature-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+        
+        .feature-item p {
+            color: #666;
+            font-size: 1.05em;
+        }
+        
+        .testimonials {
+            background: #f8f9fa;
+            padding: 60px 30px;
+            border-radius: 10px;
+            margin-top: 60px;
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #667eea;
+        }
+        
+        .testimonials blockquote {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+            font-style: italic;
+            color: #555;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .hero p {
+                font-size: 1em;
+            }
+            
+            .features h2,
+            .testimonials h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to COV LLC</h1>
-    <p>Your content goes here.</p>
+    <header>
+        <div class="hero">
+            <h1>Your AI Concierge Awaits</h1>
+            <p>Experience personalized service at your fingertips, 24/7</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </div>
+    </header>
+    
+    <main>
+        <section id="services" class="features">
+            <h2>Why Choose Our AI Concierge?</h2>
+            
+            <div class="feature-item">
+                <h3>⏰ 24/7 Availability</h3>
+                <p>Your AI concierge is always ready to assist, day or night. Never wait for business hours again.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>🎯 Personalized Recommendations</h3>
+                <p>Get intelligent suggestions tailored to your preferences, habits, and needs.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>📅 Easy Booking & Scheduling</h3>
+                <p>Schedule appointments, make reservations, and manage your calendar effortlessly.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>💬 Natural Conversation</h3>
+                <p>Chat naturally with AI that understands context and provides helpful, relevant responses.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>🔒 Privacy & Security</h3>
+                <p>Your information is protected with enterprise-grade encryption and security measures.</p>
+            </div>
+            
+            <div class="feature-item">
+                <h3>⚡ Instant Responses</h3>
+                <p>Get immediate answers to your questions without waiting for a human representative.</p>
+            </div>
+        </section>
+        
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            
+            <blockquote>
+                <p>"This AI concierge transformed my daily routine! I save hours every week on scheduling and planning. Highly recommend!" - Sarah M.</p>
+            </blockquote>
+            
+            <blockquote>
+                <p>"A true game-changer in convenience. The personalized recommendations are spot-on, and I couldn't imagine my life without it now!" - James T.</p>
+            </blockquote>
+            
+            <blockquote>
+                <p>"Finally, a service that actually understands what I need. The 24/7 availability is invaluable for my busy lifestyle." - Emma L.</p>
+            </blockquote>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 AI-Powered Concierge Service. All rights reserved.</p>
+            <p><a href="privacy.html" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Privacy Policy</a> | <a href="terms.html" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Terms of Service</a></p>
+        </div>
+    </footer>
 </body>
 </html>
